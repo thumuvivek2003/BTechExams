@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3 SEM - 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+        .container {
+            margin-top: 20px;
+        }
+        .topics{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .topic {
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            padding: 8px;
+            border-radius: 8px;
+            margin: 5px;
+            list-style: none;
+        }
+        .subject_topics{
+            display: none;
+            padding:15px;
+            border-radius: 15px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        }
+        .subject{
+            cursor: pointer;
+            background-color:#219C90;
+            color: white;
+            padding:12px;
+            border-radius: 8px;
+            margin-top:8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center subject"  data-subject="cns">CNS</h1>
+        <div id='cns_topics' class="subject_topics">
+
+            <h5>Unit 1: (10 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Introduction to security attacks, services and mechanism</li>
+                <li class="topic">Introduction to cryptography</li>
+                <li class="topic">Conventional Encryption: Conventional encryption model</li>
+                <li class="topic">Classical encryption techniques</li>
+                <li class="topic">Substitution ciphers and transposition ciphers</li>
+                <li class="topic">Cryptanalysis</li>
+                <li class="topic">Stream and block ciphers</li>
+                <li class="topic">Modern Block Ciphers: Block ciphers principals</li>
+                <li class="topic">Shannon’s theory of confusion and diffusion</li>
+                <li class="topic">Fiestal structure</li>
+                <li class="topic">Data encryption standard (DES)</li>
+                <li class="topic">Strength of DES</li>
+                <li class="topic">Differential and linear crypt analysis of DES</li>
+                <li class="topic">Block cipher modes of operations</li>
+                <li class="topic">Triple DES</li>
+                <li class="topic">AES</li>
+            </ul>
+
+            <h5>Unit II: (8 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Confidentiality using conventional encryption</li>
+                <li class="topic">Traffic confidentiality</li>
+                <li class="topic">Key distribution</li>
+                <li class="topic">Random number generation</li>
+                <li class="topic">Introduction to graph, ring and field</li>
+                <li class="topic">Prime and relative prime numbers</li>
+                <li class="topic">Modular arithmetic</li>
+                <li class="topic">Fermat’s and Euler’s theorem</li>
+                <li class="topic">Primality testing</li>
+                <li class="topic">Euclid’s Algorithm</li>
+                <li class="topic">Chinese Remainder theorem</li>
+                <li class="topic">Discrete algorithms</li>
+            </ul>
+
+            <h5>Unit III: (7 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Principles of public key crypto systems</li>
+                <li class="topic">RSA algorithm</li>
+                <li class="topic">Security of RSA</li>
+                <li class="topic">Key management</li>
+                <li class="topic">Diffle-Hellman key exchange algorithm</li>
+                <li class="topic">Introductory idea of Elliptic curve cryptography</li>
+                <li class="topic">Elgamel encryption</li>
+                <li class="topic">Message Authentication and Hash Function</li>
+                <li class="topic">Authentication requirements</li>
+                <li class="topic">Authentication functions</li>
+                <li class="topic">Message authentication code</li>
+                <li class="topic">Hash functions</li>
+                <li class="topic">Birthday attacks</li>
+                <li class="topic">Security of hash functions and MACS</li>
+            </ul>
+
+            <h5>Unit IV: (7 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">MD5 message digest algorithm</li>
+                <li class="topic">Secure hash algorithm (SHA)</li>
+                <li class="topic">Digital Signatures</li>
+                <li class="topic">Authentication protocols</li>
+                <li class="topic">Digital signature standards (DSS)</li>
+                <li class="topic">Proof of digital signature algorithm</li>
+                <li class="topic">Authentication Applications: Kerberos and X.509</li>
+                <li class="topic">Directory authentication service</li>
+                <li class="topic">Electronic mail security</li>
+                <li class="topic">Pretty good privacy (PGP)</li>
+                <li class="topic">S/MIME</li>
+            </ul>
+
+            <h5>Unit V: (7 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">IP Security: Architecture</li>
+                <li class="topic">Authentication header</li>
+                <li class="topic">Encapsulating security payloads</li>
+                <li class="topic">Combining security associations</li>
+                <li class="topic">Key management</li>
+            </ul>
+
+            <h5>Unit VI: (7 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Web Security: Secure socket layer and transport layer security</li>
+                <li class="topic">Secure electronic transaction (SET)</li>
+                <li class="topic">System Security: Intruders</li>
+                <li class="topic">Viruses and related threats</li>
+                <li class="topic">IDs</li>
+            </ul>
+       
+        </div>
+
+
+        <h1 class="text-center subject"  data-subject="ai">AI</h1>
+        <div id="ai_topics" class="subject_topics">
+            <h5>UNIT I: (6 Hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Introduction to AI Problems: AI technique, Criteria for success.</li>
+                <li class="topic">Problems; Problem Space and Search: Defining the problem as a state space search</li>
+                <li class="topic">Production as a systems, Problem characteristics</li>
+                <li class="topic">Production system characteristics</li>
+            </ul>
+            
+            <h5>Unit II: (6 Hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Heuristic Search Techniques: Generate and Test</li>
+                <li class="topic">Hill climbing</li>
+                <li class="topic">Best first search</li>
+                <li class="topic">Problem reduction</li>
+                <li class="topic">Constraint satisfaction</li>
+                <li class="topic">Means ends analysis</li>
+            </ul>
+            
+            <h5>UNIT III: (12 Hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Knowledge Representation: Representation and mappings</li>
+                <li class="topic">Approaches to knowledge representation</li>
+                <li class="topic">Issues in knowledge representation</li>
+                <li class="topic">Using Predicate Logic: Representing simple facts in logic</li>
+                <li class="topic">Representing instance and IS-A relationships</li>
+                <li class="topic">Computable functions and predicates</li>
+                <li class="topic">Resolution</li>
+                <li class="topic">Natural deduction</li>
+                <li class="topic">Forward vs. Backward reasoning</li>
+            </ul>
+            
+            <h5>UNIT IV: (6 Hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Different Knowledge Representation Schemes: Semantic nets</li>
+                <li class="topic">Frames</li>
+                <li class="topic">Conceptual dependency</li>
+                <li class="topic">Scripts</li>
+            </ul>
+            
+            <h5>UNIT V: (9 Hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Natural Language Processing: Overview of linguistics</li>
+                <li class="topic">Grammars and languages</li>
+                <li class="topic">Basic parsing techniques</li>
+                <li class="topic">Transitional networks</li>
+                <li class="topic">Semantic analysis and representation structures</li>
+                <li class="topic">Brief introduction on discourse and pragmatic processing</li>
+            </ul>
+            
+            <h5>UNIT VI: (6 Hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Expert System Architecture: Characteristic features of expert systems</li>
+                <li class="topic">History</li>
+                <li class="topic">Applications</li>
+                <li class="topic">Rule based system architecture</li>
+                <li class="topic">General Concepts in Knowledge Acquisition: Types of learning</li>
+                <li class="topic">General learning model</li>
+                <li class="topic">Performance measures</li>
+            </ul>
+        </div>
+
+        <h1 class="text-center subject"  data-subject="cdc">CDC</h1>
+        <div id="cdc_topics" class="subject_topics">
+            <h5>Unit I: (1.5 hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Number system: Base System, Exponents, Factorials, LCM & HCF, Properties of Numbers, Remainders, Successive Divisions</li>
+                <li class="topic">Sequence & Series: Arithmetic Progression, Harmonic Progression, Geometric Progression</li>
+                <li class="topic">Programming in C</li>
+            </ul>
+            
+            <h5>Unit II: (8 hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Arithmetic: Averages, Clocks & Calendars, Simple Interest & Compound Interest, Mixture & Alligations, Percentages, Profit, Loss & Discounts, Ratio & Proportion, Speed, Time & Distance, Time & Work</li>
+                <li class="topic">Programming in JAVA</li>
+                <li class="topic">Algebra: Binomial Theorem, Complex Numbers, Functions, Higher Degree Equations, Inequalities, Linear Equations, Logarithm, Quadratic Equations</li>
+                <li class="topic">Programming in Python</li>
+            </ul>
+            
+            <h5>Unit III: (6 hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Geometry: Mensuration, Lines & Angles, Circles, Polygons, Triangles, Co-ordinate Geometry, Trigonometry</li>
+                <li class="topic">Probability & Statistics: Mean, Median & Mode, Permutation & Combination, Probability Set Theory & Venn Diagram</li>
+                <li class="topic">Programming in C++</li>
+            </ul>
+            
+            <h5>Unit IV: (7 hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Logical Reasoning: Logical Sequence, Premise, Assumption & Conclusion, Binary Logic, Blood Relations, Linear & Matrix Arrangement, Seating Arrangement, Coding & Decoding, Statements & Assumptions Puzzles</li>
+                <li class="topic">Analytical Reasoning: Course of Action Fact, Inference & Judgement, Logical Deduction, Statement & Assumption, Strong & Weak Arguments, Syllogism</li>
+            </ul>
+            
+            <h5>Unit V: (4.5 hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Data Interpretation: Charts (Column, Pie & Bar), Tables Graphs (Line & Area), Venn Diagram, Data Sufficiency</li>
+                <li class="topic">Reading Comprehension</li>
+            </ul>
+            
+            <h5>Unit VI: (3 hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Verbal Ability: Cloze Test Error Spotting, Fill in the blanks, Sentence Correction, Word Usage, Para jumbles, Paragraph Completion, Paragraph Summary</li>
+            </ul>
+        </div>
+
+        
+        <h1 class="text-center subject"  data-subject="dip">DIP</h1>
+        <div id="dip_topics" class="subject_topics">
+            <h5>UNIT I</h5>
+            <ul class='topics'>
+                <li class="topic">Digital image fundamentals</li>
+                <li class="topic">Electromagnetic spectrum and imaging</li>
+                <li class="topic">Image acquisition</li>
+                <li class="topic">Image formation</li>
+                <li class="topic">Digitization-sampling and quantization</li>
+                <li class="topic">Resolution-pixel</li>
+                <li class="topic">Gray scale</li>
+                <li class="topic">Spatial</li>
+                <li class="topic">Basic relationship between pixels</li>
+                <li class="topic">Distance measure</li>
+                <li class="topic">Mathematical operations on image</li>
+                <li class="topic">Geometrical and spatial transformation</li>
+                <li class="topic">In image processing, sampling and quantization are two processes that convert continuous sensed data into digital form:</li>
+                <li class="topic">Sampling</li>
+                <li class="topic">Quantization</li>
+            </ul>
+        
+            <h5>UNIT II</h5>
+            <ul class='topics'>
+                <li class="topic">Intensity transformation and spatial filtering</li>
+                <li class="topic">Image enhancement</li>
+                <li class="topic">Log transformation</li>
+                <li class="topic">Gamma transformation</li>
+                <li class="topic">Histogram processing</li>
+                <li class="topic">Histogram matching</li>
+                <li class="topic">Special filtering- spatial correlation and convolution</li>
+                <li class="topic">Generating spatial filter mask</li>
+                <li class="topic">Image smoothing</li>
+                <li class="topic">Image sharpening-Laplacian filter</li>
+                <li class="topic">Highboost filter</li>
+                <li class="topic">Edge detection gradient filter</li>
+                <li class="topic">Morphological image processing-erosion</li>
+                <li class="topic">Dilation</li>
+                <li class="topic">Opening and closing operations</li>
+                <li class="topic">Boundary extraction</li>
+                <li class="topic">Hole Filling</li>
+                <li class="topic">Extraction of connected components</li>
+                <li class="topic">Thinning and thickening</li>
+            </ul>
+        
+            <h5>UNIT III</h5>
+            <ul class='topics'>
+                <li class="topic">Image Restoration-Noise model</li>
+                <li class="topic">Restoration-Mean filter</li>
+                <li class="topic">Geometric filter</li>
+                <li class="topic">Median filter</li>
+                <li class="topic">Adaptive filter</li>
+                <li class="topic">Band pass filter</li>
+                <li class="topic">Notch filter</li>
+                <li class="topic">Least mean square filters</li>
+                <li class="topic">Color fundamental-RGB color model</li>
+                <li class="topic">CMY color model</li>
+                <li class="topic">HSI color model</li>
+                <li class="topic">Converting RGB to HSI and vice versa</li>
+            </ul>
+        
+            <h5>UNIT IV</h5>
+            <ul class='topics'>
+                <li class="topic">Filtering in Frequency domain-Preliminary concept</li>
+                <li class="topic">Fourier series</li>
+                <li class="topic">Fourier transform</li>
+                <li class="topic">Convolution</li>
+                <li class="topic">Sampling</li>
+                <li class="topic">DFT</li>
+                <li class="topic">Enhancement in frequency domain</li>
+                <li class="topic">Low pass filter</li>
+                <li class="topic">High pass filter</li>
+                <li class="topic">Computing IDFT from DFT</li>
+            </ul>
+        
+            <h5>UNIT V</h5>
+            <ul class='topics'>
+                <li class="topic">Image compression fundamental</li>
+                <li class="topic">Coding</li>
+                <li class="topic">Temporal and spatial redundancy</li>
+                <li class="topic">Error-free (Lossless) and Lossy compression</li>
+                <li class="topic">Image segmentation</li>
+                <li class="topic">Point-line-edge detection</li>
+                <li class="topic">Image gradients operator</li>
+                <li class="topic">Canny edge detection</li>
+                <li class="topic">Edge linking and boundary detection</li>
+                <li class="topic">Local processing</li>
+                <li class="topic">Thresholding</li>
+                <li class="topic">Variable thresholding</li>
+                <li class="topic">Region Growing</li>
+                <li class="topic">Texture Segmentation</li>
+                <li class="topic">Region oriented segmentation</li>
+            </ul>
+        
+            <h5>UNIT VI</h5>
+            <ul class='topics'>
+                <li class="topic">Feature Extraction: Edges Canny, Sobel</li>
+                <li class="topic">Line detectors</li>
+                <li class="topic">Corners Harris</li>
+                <li class="topic">Orientation Histogram</li>
+                <li class="topic">SIFT</li>
+                <li class="topic">SURF</li>
+                <li class="topic">Scale-Space Analysis Image Pyramids</li>
+                <li class="topic">Haar transform</li>
+                <li class="topic">Decision-theoretic and structure descriptors</li>
+            </ul>
+        </div>
+
+
+        <h1 class="text-center subject"  data-subject="st">ST</h1>
+        <div id="st_topics" class="subject_topics">
+            <h5>UNIT I: (8 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Introduction to software testing: testing as an engineering activity</li>
+                <li class="topic">Testing as a process</li>
+                <li class="topic">Testing axioms</li>
+                <li class="topic">Basic definitions</li>
+                <li class="topic">Software testing principles</li>
+                <li class="topic">Tester’s role in a software development organization</li>
+            </ul>
+            
+            <h5>UNIT II: (8 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Introduction to software defects: origin of defects</li>
+                <li class="topic">Costs of defects</li>
+                <li class="topic">Defect classes</li>
+                <li class="topic">Defect repository and test design</li>
+                <li class="topic">Defect examples</li>
+                <li class="topic">Developer/tester support for developing a defect repository</li>
+                <li class="topic">Defect prevention techniques</li>
+            </ul>
+            
+            <h5>UNIT III: (12 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Test case design: test case design strategies</li>
+                <li class="topic">Black box approach to test design</li>
+                <li class="topic">Random testing</li>
+                <li class="topic">Requirements based testing</li>
+                <li class="topic">Boundary value analysis</li>
+                <li class="topic">Equivalence class partitioning</li>
+                <li class="topic">State-based testing</li>
+                <li class="topic">Cause-effect graph</li>
+                <li class="topic">Compatibility testing</li>
+                <li class="topic">User documentation testing</li>
+                <li class="topic">Domain testing</li>
+                <li class="topic">Using white box approach to test design</li>
+                <li class="topic">Test adequacy criteria</li>
+                <li class="topic">Static testing vs. structural testing</li>
+                <li class="topic">Code functional testing</li>
+                <li class="topic">Coverage and control-flow graph</li>
+                <li class="topic">Covering-code logic, paths</li>
+                <li class="topic">Code-complexity testing</li>
+                <li class="topic">Evaluating test-adequacy criteria</li>
+            </ul>
+            
+            <h5>UNIT IV: (12 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Levels of testing: need of levels of testing</li>
+                <li class="topic">Unit testing</li>
+                <li class="topic">Designing the unit tests</li>
+                <li class="topic">The test harness</li>
+                <li class="topic">Running the unit tests and recording results</li>
+                <li class="topic">Integration tests</li>
+                <li class="topic">Designing integration tests</li>
+                <li class="topic">Integration test planning</li>
+                <li class="topic">Defect bash elimination system testing</li>
+                <li class="topic">Acceptance testing</li>
+                <li class="topic">Performance testing</li>
+                <li class="topic">Regression testing</li>
+                <li class="topic">Ad-hoc testing</li>
+                <li class="topic">Alpha-beta tests</li>
+                <li class="topic">Testing Object Oriented systems-usability and accessibility testing</li>
+                <li class="topic">Configuration testing</li>
+                <li class="topic">Compatibility testing</li>
+                <li class="topic">Testing the documentation</li>
+                <li class="topic">Website testing</li>
+            </ul>
+            
+            <h5>UNIT V: (10 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Test management: People and organizational issues in testing</li>
+                <li class="topic">Organization structure for testing teams</li>
+                <li class="topic">Testing services</li>
+                <li class="topic">Test plan components</li>
+                <li class="topic">Test plan attachments</li>
+                <li class="topic">Locating test items</li>
+                <li class="topic">Test management</li>
+                <li class="topic">Test process</li>
+                <li class="topic">Reporting test results</li>
+                <li class="topic">The role of three groups in test planning and policy development</li>
+                <li class="topic">Introducing test specialist</li>
+                <li class="topic">Skills needed by test specialist</li>
+                <li class="topic">Building a testing group</li>
+            </ul>
+            
+            <h5>UNIT VI: (10 Contact hours)</h5>
+            <ul class='topics'>
+                <li class="topic">Test Automation: Software test automation</li>
+                <li class="topic">Skills needed for automation</li>
+                <li class="topic">Scope of automation</li>
+                <li class="topic">Design and architecture for automation</li>
+                <li class="topic">Requirements for a test tool</li>
+                <li class="topic">Challenges in automation</li>
+                <li class="topic">Test metrics and measurements</li>
+                <li class="topic">Project progress and productivity metrics</li>
+            </ul>
+        </div>
+        
+        
+        
+        
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            var abbr_full = {
+                'ai': "Artificial Intelligence",
+                'dip': "Digital Image Processing",
+                'st': "Software Testing",
+                'cns': "Cryptography and Network Security",
+                'cdc': "Carrier Development",
+            };
+
+            $(".topic").click(function() {
+                var query = $(this).text();
+                var subject = abbr_full[$(this).closest('.subject_topics').attr('id').split('_')[0]];
+                window.open('https://www.google.com/search?q=' + encodeURIComponent(query) + ' in ' + encodeURIComponent(subject), '_blank');
+            });
+
+
+
+            $('.subject').on('click', function(){
+                var subject = $(this).data('subject');
+                $('#' + subject + '_topics').toggle();
+            });
+
+        });
+    </script>
+</body>
+</html>

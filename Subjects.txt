@@ -1,0 +1,165 @@
+CNS
+Unit 1: (10 Contact hours)
+Introduction to security attacks, services and mechanism, introduction to cryptography -
+Conventional Encryption: Conventional encryption model, classical encryption techniques -
+substitution ciphers and transposition ciphers, cryptanalysis, stream and block ciphers ,Modern
+Block Ciphers: Block ciphers principals, Shannon’s theory of confusion and diffusion, fiestal
+structure, data encryption standard(DES), strength of DES, differential and linear crypt analysis of
+DES, block cipher modes of operations, triple DES, AES.
+Unit II: (8 Contact hours)
+Confidentiality using conventional encryption, traffic confidentiality, key distribution, random
+number generation, Introduction to graph, ring and field, prime and relative prime numbers,
+modular arithmetic, Fermat’s and Euler’s theorem, primality testing, Euclid’s Algorithm, Chinese
+Remainder theorem, discrete algorithms.Unit III: (7 Contact hours)
+Principles of public key crypto systems, RSA algorithm, security of RSA, key management, DiffleHellman key exchange algorithm, introductory idea of Elliptic curve cryptography, Elgamel
+encryption, Message Authentication and Hash Function: Authentication requirements,
+authentication functions, message authentication code, hash functions, birthday attacks, security of
+hash functions and MACS.
+Unit IV: (7 Contact hours)
+MD5 message digest algorithm, Secure hash algorithm (SHA), Digital Signatures: Digital
+Signatures - authentication protocols - digital signature standards (DSS) - proof of digital signature
+algorithm, Authentication Applications: Kerberos and X.509, directory authentication service,
+electronic mail security, pretty good privacy (PGP), S/MIME.
+Unit V: (7 Contact hours)
+IP Security: Architecture, Authentication header, Encapsulating security payloads, combining
+security associations, key management.
+Unit VI: (7 Contact hours)
+Web Security: Secure socket layer and transport layer security, secure electronic transaction (SET),
+System Security: Intruders - Viruses and related threats, IDs
+
+
+
+AI : 
+UNIT I:
+Introduction to AI Problems: AI technique, Criteria for success. Problems; Problem Space and
+Search: Defining the problem as a state space search, Production as a systems, Problem
+characteristics, Production system characteristics (6 Hours)
+Unit II: (6 Hours)
+Heuristic Search Techniques: Generate and Test, Hill climbing, Best first search, Problem reduction,
+Constraint satisfaction, Means ends analysis.
+UNIT III (12 Hours)
+Knowledge Representation: Representation and mappings, Approaches to knowledge
+representation; Issues in knowledge representation. Using Predicate Logic: Representing simple
+facts in logic, Representing instance and IS-A relationships, Computable functions and predicates,
+Resolution, Natural deduction, Forward vs. Backward reasoning.
+UNIT IV: (6 Hours)
+Different Knowledge Representation Schemes: Semantic nets, Frames, Conceptual dependency,
+Scripts
+UNIT V: (9 Hours)
+Natural Language Processing: Overview of linguistics, Grammars and languages, Basic parsing
+techniques, Transitional networks, Semantic analysis and representation structures, Brief
+introduction on discourse and pragmatic processing;
+UNIT VI: (6 Hours)
+Expert System Architecture: Characteristic features of expert systems, History, Applications, Rule
+based system architecture. General Concepts in Knowledge Acquisition: Types of learning, General
+learning model, Performance measures
+
+
+CDS : 
+Unit I: (1.5 hours)
+Number system: Base System, Exponents, Factorials, LCM & HCF, Properties of Numbers,
+Remainders, Successive Divisions
+Sequence & Series: Arithmetic Progression, Harmonic Progression, Geometric Progression
+Programming in C
+Unit II: (8 hours)
+Arithmetic: Averages, Clocks & Calendars, Simple Interest & Compoud Interest, Mixture &
+Alligations, Percentages, Profit, Loss & Discounts, Ratio & Proportion, Speed, Time & Distance,
+Time & Work
+Programming in JAVA
+Algebra: Binomial Theorem, Complex Numbers, Functions, Higher Degree Equations,
+Inequalities , Linear Equations, Logarithm, Quadratic Equations
+Programming in Phython
+Unit III: (6 hours)
+Geometry: Mensuration, Lines & Angles, Circles, Polygons, Triangles, Co-ordinate Geometry,
+Trigonometry
+Probability & Statistics: Mean, Median & Mode, Permutation & Combination, Probability Set
+Theory & Venn Diagram
+Programming in C++
+Unit IV: (7 hours)
+Logical Reasoning: Logical Sequence, Premise, Assumption & Conclusion, Binary Logic, Blood
+Relations, Linear & Matrix Arrangement, Seating Arrangement, Coding & Decoding, Statements
+& Assumptions Puzzles
+Analytical Reasoning: Course of Action Fact, Inference & Judgement, Logical Deduction,
+Statement & Assumption, Strong & Weak Arguments, Syllogism
+Unit V: (4.5 hours)Data Interpretation: Charts (Column, Pie & Bar), Tables Graphs (Line & Area), Venn Diagram,
+Data Sufficiency. Reading Comprehension
+Unit VI: (3 hours)
+Verbal Ability: Cloze Test Error Spotting, Fill in the blanks, Sentence Correction, Word Usage,
+Para jumbles, Paragraph Completion, Paragraph Summary
+
+
+
+
+DIP : 
+UNIT I
+Digital image fundamentals 
+Electromagnetic spectrum and imaging,
+ Image acquisition,
+ image formation. 
+Digitization-sampling and quantization,
+ Resolution-pixel, 
+gray scale, 
+spatial, 
+basic relationship between pixels, 
+Distance measure, 
+Mathematical operations on image, 
+Geometrical and spatial transformation.
+In image processing, sampling and quantization are two processes that convert continuous sensed data into digital form:
+Sampling
+Digitizes the coordinate values in a signal or image. The sampling rate determines the spatial resolution of the digitized image.
+Quantization
+Digitizes the amplitude values in a signal or image. The quantization level determines the number of gray levels in the digitized image
+UNIT II
+Intensity transformation and spatial filtering: Image enhancement, log transformation, Gam 98 transformation, Histogram processing, Histogram matching. Special filtering- spatial correlation and convolution, generating spatial filter mask, mage smoothing, Image sharpening-Laplacian filter, Highboost filter. Edge detection gradient filter, Morphological image processing-erosion, Dilation, opening and closing operations, Boundary extraction, Hole Filling, Extraction of connected components, Thinning, and thickening.
+UNIT III
+Image Restoration-Noise model, Restoration-Mean filter, Geometric filter, median filter, adaptive filter, band pass filter, Notch filter, least mean square filters. Color fundamental-RGB color model, CMY color model, HSI color model. Converting RGB to HSI and vice versa.
+UNIT IV
+Filtering in Frequency domain-Preliminary concept: Fourier series, Fourier transform, convolution, Sampling, DFT, Enhancement in frequency domain, low pass filter, high pass filter. Computing IDFT from DFT.
+UNIT V
+Image compression fundamental, coding, temporal and spatial redundancy, Error-free (Lossless) and Lossy compression. Image segmentation, Point-line-edge detection. Image gradients operator, canny edge detection, Edge linking and boundary detection, local processing, thresholding, variable thresholding, Region Growing, Texture Segmentation; Region oriented segmentation.
+UNIT VI
+Feature Extraction: Edges Canny, Sobel; Line detectors, Corners Harris, Orientation Histogram,
+SIFT. SURF. Scale-Space Analysis Image Pyramids, Haar transform. Decision-theoretic and
+structure descriptors.
+
+
+ST : 
+UNIT – I (8 Contact hours)
+Introduction to software testing: testing as an engineering activity, testing as a process,
+testing axioms, basic definitions, software testing principles, tester’s role in a software development
+organization.
+UNIT-II (8 Contact hours)
+Introduction to software defects: origin of defects, costs of defects, defect classes, defect
+repository and test design, defect examples, developer/tester support for developing a defect
+repository, defect prevention techniques.
+UNIT-III (12 Contact hours)
+test case design : test case design strategies: black box approach to test design, random testing,
+requirements based testing, boundary value analysis, equivalence class partitioning, state-based
+testing, cause-effect graph, compatibility testing, user documentation testing, domain testing, using
+white box approach to test design: test adequacy criteria, static testing vs. structural testing, code
+functional testing, coverage and control-flow graph, covering-code logic, paths, code-complexity
+testing, evaluating test-adequacy criteria.
+UNIT – IV (12 Contact hours)
+Levels of testing: need of levels of testing, unit testing,designing the unit tests, the test harness,
+running the unit tests and recording results, integration tests, designing integration tests, integration
+test planning,defect bash elimination system testing, acceptance testing, performance testing,
+regression testing, ad-hoc testing, alpha-beta tests, testing Object Oriented systems-usability and
+accessibility testing, configuration testing, compatibility testing, testing the documentation, website
+testing.
+UNIT – V (10 Contact hours)
+Test management: People and organizational issues in testing, organization structure for testing
+teams, testing services,test plan components, test plan attachments, locating test items, test
+management, test process, reporting test results, the role of three groups in test planning and policy
+development-introducing test specialist, skills needed by test specialist, building a testing group.
+UNIT – VI (10 Contact hours)
+Test Automation: software test automation, skills needed for automation, scope of automation,
+design and architecture for automation, requirements for a test tool, challenges in automation, test
+metrics and measurements, project progress and productivity metrics.
+
+
+
+
+MA : Follow zip file resource
+
+
+
